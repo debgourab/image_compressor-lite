@@ -46,3 +46,12 @@ git clone https://github.com/debgourab/image_compressor-lite.git
 cd image_compressor-lite
 ```
 
+## Run Locally
+
+1. Extract the project ZIP.
+2. Open the `image-compressor` folder.
+3. Double-click `index.html` to open it in your browser.
+4. Keep an internet connection available so the JSZip CDN script can load.
+
+You can also open the folder in VS Code and use Live Server if you already have that extension installed.
+
