@@ -105,3 +105,7 @@ Because the original implementation is unchanged:
 
 Selected images are read and processed in browser memory. This application contains no image-upload request or backend. The page does request the external JSZip script from cdnjs; therefore it is not fully offline on first load. Keep the original images as your source copies.
 
+## Author
+
+**Deb Gourab Biswas**  
+GitHub: [debgourab](https://github.com/debgourab)
