@@ -101,3 +101,7 @@ Because the original implementation is unchanged:
 | Output is larger than the input | Compression savings depend on the source image; a fixed quality setting cannot guarantee smaller files. |
 | Download does not appear | Check the browser download list and download permissions. |
 
+## Privacy and Network Use
+
+Selected images are read and processed in browser memory. This application contains no image-upload request or backend. The page does request the external JSZip script from cdnjs; therefore it is not fully offline on first load. Keep the original images as your source copies.
+
