@@ -82,3 +82,12 @@ Because the original implementation is unchanged:
 - Very large batches or high-resolution images may use substantial browser memory.
 - The success message means a download was triggered; the application cannot confirm that the browser saved it.
 
+## Quick Manual Check
+
+1. Open the page with internet access.
+2. Select two JPEG images with different filenames.
+3. Confirm the selected-image count appears.
+4. Compress and extract the downloaded ZIP.
+5. Confirm both images open and retain their original dimensions.
+6. Repeat using drag and drop and a WebP image supported by your browser.
+
