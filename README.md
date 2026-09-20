@@ -63,3 +63,9 @@ You can also open the folder in VS Code and use Live Server if you already have 
 4. Wait for compression and ZIP creation to finish.
 5. Open the downloaded ZIP to access your images.
 
+## How Compression Works
+
+The application reads each image with FileReader, draws it onto a canvas at its original dimensions, and calls `canvas.toBlob()` with a quality value of `0.7`. JPEG and WebP inputs retain their requested output format; other decodable inputs are converted to JPEG. JSZip bundles the resulting blobs into one download.
+
+The quality value is an encoder setting, not a promise of 70% file-size reduction. Some output files may be larger than their originals.
+
