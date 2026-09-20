@@ -26,3 +26,12 @@ A simple browser-based image compressor built with HTML, CSS, and JavaScript. Se
 
 JSZip is loaded from the CDN already included in the original code. No framework, backend, package installation, or build step is required.
 
+## Project Files
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | Application markup and script/style links |
+| `style.css` | Original visual styling |
+| `script.js` | Original compression and download logic |
+| `README.md` | Setup instructions and project documentation |
+
