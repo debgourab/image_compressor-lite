@@ -55,3 +55,11 @@ cd image_compressor-lite
 
 You can also open the folder in VS Code and use Live Server if you already have that extension installed.
 
+## How to Use
+
+1. Click **click to browse**, or drag images into the dashed area.
+2. Select one or more images. Each new selection replaces the previous batch.
+3. Click **Compress & Download ZIP**.
+4. Wait for compression and ZIP creation to finish.
+5. Open the downloaded ZIP to access your images.
+
