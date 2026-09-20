@@ -69,3 +69,16 @@ The application reads each image with FileReader, draws it onto a canvas at its 
 
 The quality value is an encoder setting, not a promise of 70% file-size reduction. Some output files may be larger than their originals.
 
+## Original-Code Notes
+
+The supplied styling and JavaScript logic have been preserved. Packaging only adds the HTML document structure, separates CSS and JavaScript into linked files, and removes the pasted `..` separators outside the code.
+
+Because the original implementation is unchanged:
+
+- Format labels and the file picker do not guarantee browser decoding support. TIFF and some other inputs may not decode in the user's browser.
+- Unsupported or damaged images can leave compression waiting because image-reading and decoding error handlers are not implemented.
+- Conversion to JPEG removes transparency, and animated inputs become a still image.
+- Files that produce the same output filename can overwrite one another inside the ZIP. Use distinct base filenames.
+- Very large batches or high-resolution images may use substantial browser memory.
+- The success message means a download was triggered; the application cannot confirm that the browser saved it.
+
