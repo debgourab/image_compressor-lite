@@ -91,3 +91,13 @@ Because the original implementation is unchanged:
 5. Confirm both images open and retain their original dimensions.
 6. Repeat using drag and drop and a WebP image supported by your browser.
 
+## Troubleshooting
+
+| Problem | What to check |
+| --- | --- |
+| ZIP creation fails | Ensure the JSZip CDN script loaded and your connection is available. |
+| Compression stays on one image | Try a valid JPEG or WebP image; the original code has no decode-error handler. |
+| Fewer files appear in the ZIP | Check whether inputs share the same output filename after conversion. |
+| Output is larger than the input | Compression savings depend on the source image; a fixed quality setting cannot guarantee smaller files. |
+| Download does not appear | Check the browser download list and download permissions. |
+
