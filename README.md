@@ -35,3 +35,14 @@ JSZip is loaded from the CDN already included in the original code. No framework
 | `script.js` | Original compression and download logic |
 | `README.md` | Setup instructions and project documentation |
 
+## Repository
+
+[Image Compressor Lite on GitHub](https://github.com/debgourab/image_compressor-lite)
+
+Clone the project:
+
+```bash
+git clone https://github.com/debgourab/image_compressor-lite.git
+cd image_compressor-lite
+```
+
